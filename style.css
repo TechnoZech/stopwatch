@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body{
+    height: 100vh;
+}
+
+.section{
+    height: 100vh;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 6rem;
+    margin-bottom: 50px;
+}
+
+.timer{
+    font-size: 8rem;
+    margin-bottom: 50px;
+}
+
+.btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.reset, .start, .stop{
+    background-color: blueviolet;
+    border: solid 2px black;
+    color: #FFFFFF;
+    padding: 20px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.reset:hover, .start:hover, .stop:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
